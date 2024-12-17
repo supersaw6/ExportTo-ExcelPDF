@@ -24,7 +24,7 @@ $xlFixedFormat = "Microsoft.Office.Interop.Excel.xlFixedFormatType" -as [type]
 # Finds the paths for all excel files within your current directory and sub directories with the extension .xlsm
 $excelFiles = Get-ChildItem -Path $path -include *.xlsm -recurse
 
-#This opens up excel :3c
+#This opens up excel
 $objExcel = New-Object -ComObject excel.application
 
 # Set the visible property to false to avoid a bunch of spreadsheets popping up and closing 
