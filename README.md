@@ -15,8 +15,8 @@ Once you are in the terminal make sure you are using windows powershell
 
 Then paste in this code that runs the ExportTo-ExcelPDF
 
-powershell.exe -file "_scriptpath.ps1_"
+`powershell.exe -file "scriptpath.ps1"`
 
-Replace the scriptpath with the actual path whre the script is located. I have it located in "_J:\Engineering\Data Management\Scripts\ExportTo-ExcelPDF.ps1_"
+Replace the scriptpath with the actual path whre the script is located. I have it located in `J:\Engineering\Data Management\Scripts\ExportTo-ExcelPDF.ps1`
 
 Once you replace the scriptpath with the actual path, press enter and the script will prompt you to do things. 
